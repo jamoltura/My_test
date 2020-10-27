@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView8"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:background="@drawable/fon"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:paddingLeft="@dimen/paddingtext"
+                android:paddingRight="@dimen/paddingtext">
+
+            <TextView
+                    android:text="@string/layout_8text"
+                    android:id="@+id/textView25"
+                    style="@style/TextViewHead"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="30dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:paddingLeft="@dimen/paddingtext"
+                android:paddingRight="@dimen/paddingtext">
+
+            <TextView
+                    android:text="@string/layout_8text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView26"
+                    android:textColor="@color/btnButtonNormal"
+                    android:textSize="@dimen/smalltextsize"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center_horizontal"/>
+            <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/phonefoncolor"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/textView26"
+                    android:id="@+id/frame" android:paddingTop="10dp" android:paddingBottom="10dp">
+
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    <TextView
+                            android:text="+(998)"
+                            android:id="@+id/textView34"
+                            style="@style/TextViewHead" android:layout_marginRight="10dp"
+                            android:gravity="center_vertical"/>
+                    <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="phone"
+                            android:textSize="@dimen/headtextsize"
+                            android:ems="10"
+                            android:id="@+id/editText7"
+                            android:background="@color/phonecolor"
+                            android:maxLength="9"
+                            android:textColor="@color/text1color"
+                            android:gravity="center_vertical"/>
+                </LinearLayout>
+            </FrameLayout>
+
+            <Button
+                    android:text="@string/layout_btndale"
+                    android:id="@+id/btndaleend"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    style="@style/bazebutton"
+                    android:background="@drawable/ic_btn2"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/frame"/>
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:paddingLeft="@dimen/paddingtext"
+                android:paddingRight="@dimen/paddingtext">
+
+            <TextView
+                    android:text="@string/layout_8text3"
+                    android:id="@+id/textView27"
+                    style="@style/TextViewHead"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignParentTop="true"/>
+            <TextView
+                    android:text="@string/layout_8text4"
+                    android:id="@+id/textView28"
+                    style="@style/TextViewHead"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/textView27"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

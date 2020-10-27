@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".StartActivity">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@drawable/fon"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="6">
+
+            <TextView
+                    android:text="@string/layout_1text"
+                    android:id="@+id/textView"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="60dp"
+                    style="@style/TextViewHead"/>
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:paddingLeft="@dimen/padding"
+                android:paddingRight="@dimen/padding">
+
+            <Button
+                    android:text="@string/layout_btnuztext"
+                    android:id="@+id/btnuz"
+                    style="@style/bazebutton"
+                    android:textSize="@dimen/startheadtextsize"
+                    android:layout_centerInParent="false"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/ic_btn"/>
+            <Button
+                    android:text="@string/layout_btnrutext"
+                    android:id="@+id/btnru"
+                    style="@style/bazebutton"
+                    android:textSize="@dimen/startheadtextsize"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/btnuz"
+                    android:background="@drawable/ic_btn"
+            />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

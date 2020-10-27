@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="fon">#464646</color>
+    <color name="text1color">#E6E6E6</color>
+    <color name="text2color">#FFCA28</color>
+    <color name="btnButtonNormal">#119828</color>
+    <color name="btnHighlight">#FFCA28</color>
+    <color name="btntextcolor">#D4E157</color>
+    <color name="phonecolor">#193c42</color>
+    <color name="phonefoncolor">#0a2429</color>
+    <color name="proz">#00000000</color>
+    <color name="panelstart">#ade2f5</color>
+    <color name="panelend">#2abff5</color>
+    <color name="panel">#1e64a5</color>
+    <color name="panelkontur">#083055</color>
+</resources>

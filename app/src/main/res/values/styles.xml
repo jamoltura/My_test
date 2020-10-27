@@ -1,0 +1,84 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="bazebutton" parent="Widget.AppCompat.Button.Colored">
+        <item name="background">@drawable/ic_btn</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/btntextcolor</item>
+        <item name="android:textSize">@dimen/btntextsize</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="ListTextWiew">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="BaseTextWiew">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="TextViewStart" parent="BaseTextWiew">
+        <item name="android:textColor">@color/text1color</item>
+        <item name="android:textSize">@dimen/startheadtextsize</item>
+    </style>
+    <style name="TextViewHead" parent="BaseTextWiew">
+        <item name="android:textColor">@color/text1color</item>
+        <item name="android:textSize">@dimen/headtextsize</item>
+    </style>
+    <style name="TextViewBody" parent="BaseTextWiew">
+        <item name="android:textColor">@color/text2color</item>
+        <item name="android:textSize">@dimen/bodytextsize</item>
+    </style>
+
+    <style name="TextViewBody2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text2color</item>
+        <item name="android:textSize">@dimen/textsize</item>
+    </style>
+
+    <style name="TextViewHeadTest" parent="BaseTextWiew">
+        <item name="android:textSize">@dimen/headtextsize</item>
+    </style>
+
+    <style name="TextViewTest" parent="ListTextWiew">
+        <item name="android:textSize">@dimen/textsize</item>
+    </style>
+
+    <style name="BaseTextPanel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextPanel" parent="BaseTextPanel">
+        <item name="android:textSize">@dimen/smallheadtextsize</item>
+    </style>
+    <style name="TextPanel2" parent="BaseTextPanel">
+        <item name="android:textSize">@dimen/smallheadtextsize</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="TextPanel3" parent="BaseTextPanel">
+        <item name="android:textSize">@dimen/microtextsize</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="TextPanel4" parent="BaseTextPanel">
+        <item name="android:textSize">@dimen/highsmalltextsize</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+</resources>

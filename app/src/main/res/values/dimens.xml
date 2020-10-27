@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_mar">16dp</dimen>
+    <dimen name="checkbox_dst">5dp</dimen>
+
+    <dimen name="startheadtextsize">28sp</dimen>
+    <dimen name="headtextsize">22sp</dimen>
+    <dimen name="smallheadtextsize">20sp</dimen>
+
+    <dimen name="bodytextsize">24sp</dimen>
+    <dimen name="smallbodytextsize">22sp</dimen>
+
+    <dimen name="textsize">18sp</dimen>
+    <dimen name="smalltextsize">16sp</dimen>
+    <dimen name="highsmalltextsize">14sp</dimen>
+    <dimen name="microtextsize">10sp</dimen>
+
+    <dimen name="btntextsize">22sp</dimen>
+    <dimen name="padding">50sp</dimen>
+    <dimen name="paddingtext">10sp</dimen>
+
+    <dimen name="otstup_kray">50dp</dimen>
+    <dimen name="otstup_krayimage">5dp</dimen>
+</resources>

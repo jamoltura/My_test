@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" android:layout_centerHorizontal="false"
+              android:layout_marginTop="10dp">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.11"
+            android:layout_gravity="center">
+
+        <TextView
+                android:text="99-$"
+                android:id="@+id/textmund_id"
+                style="@style/TextViewTest"
+                android:layout_marginLeft="5dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4.75"
+            android:layout_gravity="center">
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgbtn3"
+                android:background="@drawable/ic_file_dsmall"
+                android:foreground="@drawable/kontur" android:layout_marginTop="5dp" android:layout_marginBottom="5dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4.4"
+            android:layout_gravity="center">
+
+        <TextView
+                android:text="99mb"
+                android:id="@+id/textmund2"
+                style="@style/TextViewTest"
+                android:layout_centerInParent="false"
+                android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,310 @@
+<resources>
+    <string name="app_name">My Test</string>
+
+    <string name="main_ak_headvideo">5-SINF ADABIYOT</string>
+    <string name="main_ak_btnvaxbo">AXBOROTNOMA</string>
+    <string name="main_ak_text">5-SINF BO`YICHA BARCH VIDEO DARSLAR</string>
+
+
+    <string name="layout_1text">DASTUR TILINI TANLANG</string>
+    <string name="layout_btnuztext">O`ZBEKCHA</string>
+    <string name="layout_btnrutext">РУССКИЙ</string>
+
+    <string name="layout_2text">OFERTA</string>
+    <string name="layout_2text2">oferta</string>
+    <string name="layout_btnofert">OFERTA SHARTLARIGA ROZIMAN</string>
+
+    <string name="layout_3text11">TAJRIBALI O`QITUVCHILAR TOMONIDAN YARATILGAN</string>
+    <string name="layout_3text12">DAVLAT TEST MARKAZI TOMONIDAN YARATILGAN</string>
+    <string name="layout_3text13">AMALDAGI DARSLIKLAR, MA`RUZALAR, BADIIY ASARLAR, va hok.</string>
+
+    <string name="layout_3text21">INNOVATSION VIDEO DARSLAR</string>
+    <string name="layout_3text22">AMALDAGI DARSLIKLAR ASOSIDA TUZILGAN MUKAMMAL YANGI TESTLAR VA SAVOL-JAVOBLAR</string>
+    <string name="layout_3text23">AXBOROTNOMA (1996-2003) VA VARIANTLAR (2004-2020) TO`PLAMINING AMALDAGI DARSLIKLARGA
+        MOS TESTLAR
+    </string>
+    <string name="layout_3text24">KO`P MIQDORDAGI ELEKTRON KITOBLARGA EGA KUTUBXONA</string>
+    <string name="layout_btndale">DAVOM ETISH</string>
+
+    <string name="layout_4text">O`QITUVCHILAR UCHUN KATTA IMKONIYATLAR</string>
+    <string name="layout_4text11">TESTLARNI O`ZGARTIRISH</string>
+    <string name="layout_4text12">TESTLARNI O`CHIRISH</string>
+    <string name="layout_4text13">YANGI TESTLAR QO`SHISH</string>
+    <string name="layout_4text14">TESTLARNI CHOP QILISH</string>
+    <string name="layout_4text15">TAHRIRLANGAN TESTLAR BAZASINI YOKI TANLANGAN TESTLARNI O`Z O`QUVCHILARI DASTURUGA
+        YUBORISH
+    </string>
+
+    <string name="layout_5text11">VIDEO DARSLARNI KO`CHIRIB OLISH</string>
+    <string name="layout_5text12">TESTLARNI:</string>
+    <string name="layout_5text121">ketma-ketlikda ishlash</string>
+    <string name="layout_5text122">aralashgan holda ishlash</string>
+    <string name="layout_5text123">imtihon tarzida ishlash</string>
+    <string name="layout_5text124">natijalar bilan tanishish</string>
+    <string name="layout_5text13">SAVOLLARGA JAVOB BERISH</string>
+    <string name="layout_5text14">O`QITUVCHINGIZ YUBORGAN TESTLAR BAZASINI ISHLASH</string>
+    <string name="layout_5text15">ONLINE TESTLARDA G`OLIB BO`LISH ORQALI BONUSLARGA EGA BO`LISH</string>
+    <string name="layout_5text16">DASTURNI TAVSIYA QILISH ORQALI VAUCHERGA EGA BO`LISH</string>
+
+    <string name="layout_6text">MA`LUMOTLARNI KIRITING</string>
+    <string name="layout_btntas">TASDIQLASH</string>
+
+    <string name="layout_7text">TELEFON RAQAMINGIZGA SMS ORQALI TASDIQLASH KODI YUBORILDI</string>
+    <string name="layout_7edithint">tasdiqlash kodini kiriting (6 ta raqam)</string>
+    <string name="layout_7text2">Tasdiqlash kodini qaytadan yuborish</string>
+
+    <string name="layout_8text">USHBU DASTURNI SIZGA TAKLIF QILGAN DO`STINGIZ TELEFON RAQAMINI KIRITSANGIZ, BIZ UNGA
+        BONUS BERAMIZ.
+    </string>
+    <string name="layout_8text2">(majburiy emas)</string>
+    <string name="layout_8text3">SIZ HAM USHBU DASTURNI DO`STLARINGIZGA TAKLIF QILING VA BONUSLARGA EGA BO`LING!!!
+    </string>
+    <string name="layout_8text4">BATAFSIL: MENYU QISMIDA</string>
+
+
+    <string name="downloaded">Загрузка завершена</string>
+
+
+    <string name="description">Media Controls</string>
+
+    <string name="layouttest_text">AMALDAGI DARSLIKKA MOS TESTLAR</string>
+    <string name="layouttest_text2">"GOLDEN BOOKS" kitobidagi test manzilini kiriting</string>
+
+
+    <string-array name="viloyat">
+        <item>VILOYAT</item>
+        <item>Toshkent</item>
+        <item>r.Qoraqalpog`iston</item>
+        <item>Buxoro</item>
+        <item>Samarqand</item>
+        <item>Xorazm</item>
+        <item>Navoiy</item>
+        <item>Jizzax</item>
+        <item>Qashqadaryo</item>
+        <item>Surxondaryo</item>
+        <item>Sirdaryo</item>
+        <item>Farg`ona</item>
+        <item>Namangan</item>
+        <item>Andijon</item>
+    </string-array>
+
+    <string-array name="empty">
+        <item>TUMAN</item>
+    </string-array>
+
+    <string-array name="kto">
+        <item>O`QITUVCHI YOKI O`QUVCHI</item>
+        <item>O`QITUVCHI</item>
+        <item>O`QUVCHI</item>
+    </string-array>
+
+
+    <string-array name="toshkent">
+        <item>Toshkent</item>
+        <item>r.Qoraqalpog`iston</item>
+        <item>Buxoro</item>
+        <item>Samarqand</item>
+        <item>Xorazm</item>
+        <item>Navoiy</item>
+        <item>Jizzax</item>
+        <item>Qashqadaryo</item>
+        <item>Surxondaryo</item>
+        <item>Sirdaryo</item>
+        <item>Farg`ona</item>
+        <item>Namangan</item>
+        <item>Andijon</item>
+    </string-array>
+
+    <string-array name="qoraqalpogiston">
+        <item>Toshkent</item>
+        <item>r.Qoraqalpog`iston</item>
+        <item>Buxoro</item>
+        <item>Samarqand</item>
+        <item>Xorazm</item>
+        <item>Navoiy</item>
+        <item>Jizzax</item>
+        <item>Qashqadaryo</item>
+        <item>Surxondaryo</item>
+        <item>Sirdaryo</item>
+        <item>Farg`ona</item>
+        <item>Namangan</item>
+        <item>Andijon</item>
+    </string-array>
+
+    <string-array name="buxoro">
+        <item>Toshkent</item>
+        <item>r.Qoraqalpog`iston</item>
+        <item>Buxoro</item>
+        <item>Samarqand</item>
+        <item>Xorazm</item>
+        <item>Navoiy</item>
+        <item>Jizzax</item>
+        <item>Qashqadaryo</item>
+        <item>Surxondaryo</item>
+        <item>Sirdaryo</item>
+        <item>Farg`ona</item>
+        <item>Namangan</item>
+        <item>Andijon</item>
+    </string-array>
+
+    <string-array name="samarqand">
+        <item>Toshkent</item>
+        <item>r.Qoraqalpog`iston</item>
+        <item>Buxoro</item>
+        <item>Samarqand</item>
+        <item>Xorazm</item>
+        <item>Navoiy</item>
+        <item>Jizzax</item>
+        <item>Qashqadaryo</item>
+        <item>Surxondaryo</item>
+        <item>Sirdaryo</item>
+        <item>Farg`ona</item>
+        <item>Namangan</item>
+        <item>Andijon</item>
+    </string-array>
+
+    <string-array name="xorazm">
+        <item>Toshkent</item>
+        <item>r.Qoraqalpog`iston</item>
+        <item>Buxoro</item>
+        <item>Samarqand</item>
+        <item>Xorazm</item>
+        <item>Navoiy</item>
+        <item>Jizzax</item>
+        <item>Qashqadaryo</item>
+        <item>Surxondaryo</item>
+        <item>Sirdaryo</item>
+        <item>Farg`ona</item>
+        <item>Namangan</item>
+        <item>Andijon</item>
+    </string-array>
+
+    <string-array name="navoiy">
+        <item>Toshkent</item>
+        <item>r.Qoraqalpog`iston</item>
+        <item>Buxoro</item>
+        <item>Samarqand</item>
+        <item>Xorazm</item>
+        <item>Navoiy</item>
+        <item>Jizzax</item>
+        <item>Qashqadaryo</item>
+        <item>Surxondaryo</item>
+        <item>Sirdaryo</item>
+        <item>Farg`ona</item>
+        <item>Namangan</item>
+        <item>Andijon</item>
+    </string-array>
+
+    <string-array name="jizzax">
+        <item>Toshkent</item>
+        <item>r.Qoraqalpog`iston</item>
+        <item>Buxoro</item>
+        <item>Samarqand</item>
+        <item>Xorazm</item>
+        <item>Navoiy</item>
+        <item>Jizzax</item>
+        <item>Qashqadaryo</item>
+        <item>Surxondaryo</item>
+        <item>Sirdaryo</item>
+        <item>Farg`ona</item>
+        <item>Namangan</item>
+        <item>Andijon</item>
+    </string-array>
+
+    <string-array name="qashqadaryo">
+        <item>Toshkent</item>
+        <item>r.Qoraqalpog`iston</item>
+        <item>Buxoro</item>
+        <item>Samarqand</item>
+        <item>Xorazm</item>
+        <item>Navoiy</item>
+        <item>Jizzax</item>
+        <item>Qashqadaryo</item>
+        <item>Surxondaryo</item>
+        <item>Sirdaryo</item>
+        <item>Farg`ona</item>
+        <item>Namangan</item>
+        <item>Andijon</item>
+    </string-array>
+
+    <string-array name="surxondaryo">
+        <item>Toshkent</item>
+        <item>r.Qoraqalpog`iston</item>
+        <item>Buxoro</item>
+        <item>Samarqand</item>
+        <item>Xorazm</item>
+        <item>Navoiy</item>
+        <item>Jizzax</item>
+        <item>Qashqadaryo</item>
+        <item>Surxondaryo</item>
+        <item>Sirdaryo</item>
+        <item>Farg`ona</item>
+        <item>Namangan</item>
+        <item>Andijon</item>
+    </string-array>
+
+    <string-array name="sirdaryo">
+        <item>Toshkent</item>
+        <item>r.Qoraqalpog`iston</item>
+        <item>Buxoro</item>
+        <item>Samarqand</item>
+        <item>Xorazm</item>
+        <item>Navoiy</item>
+        <item>Jizzax</item>
+        <item>Qashqadaryo</item>
+        <item>Surxondaryo</item>
+        <item>Sirdaryo</item>
+        <item>Farg`ona</item>
+        <item>Namangan</item>
+        <item>Andijon</item>
+    </string-array>
+
+    <string-array name="fargona">
+        <item>Toshkent</item>
+        <item>r.Qoraqalpog`iston</item>
+        <item>Buxoro</item>
+        <item>Samarqand</item>
+        <item>Xorazm</item>
+        <item>Navoiy</item>
+        <item>Jizzax</item>
+        <item>Qashqadaryo</item>
+        <item>Surxondaryo</item>
+        <item>Sirdaryo</item>
+        <item>Farg`ona</item>
+        <item>Namangan</item>
+        <item>Andijon</item>
+    </string-array>
+
+    <string-array name="namangan">
+        <item>Toshkent</item>
+        <item>r.Qoraqalpog`iston</item>
+        <item>Buxoro</item>
+        <item>Samarqand</item>
+        <item>Xorazm</item>
+        <item>Navoiy</item>
+        <item>Jizzax</item>
+        <item>Qashqadaryo</item>
+        <item>Surxondaryo</item>
+        <item>Sirdaryo</item>
+        <item>Farg`ona</item>
+        <item>Namangan</item>
+        <item>Andijon</item>
+    </string-array>
+
+    <string-array name="andijon">
+        <item>Toshkent</item>
+        <item>r.Qoraqalpog`iston</item>
+        <item>Buxoro</item>
+        <item>Samarqand</item>
+        <item>Xorazm</item>
+        <item>Navoiy</item>
+        <item>Jizzax</item>
+        <item>Qashqadaryo</item>
+        <item>Surxondaryo</item>
+        <item>Sirdaryo</item>
+        <item>Farg`ona</item>
+        <item>Namangan</item>
+        <item>Andijon</item>
+    </string-array>
+
+</resources>
